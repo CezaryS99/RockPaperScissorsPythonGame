@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: rock-paper-scissors
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
