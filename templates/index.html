@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <form method="post">
+        <button name="choice" value="Rock">🪨 Rock</button>
+        <button name="choice" value="Paper">📄 Paper</button>
+        <button name="choice" value="Scissors">✂️ Scissors</button>
+    </form>
+
+    {% if result %}
+        <p><strong>Player:</strong> {{ player }}</p>
+        <p><strong>Computer:</strong> {{ computer }}</p>
+        <p><strong>Result:</strong> {{ result }}</p>
+    {% endif %}
+</body>
+</html>
